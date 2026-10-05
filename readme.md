@@ -25,7 +25,7 @@ My Hyprland + Noctalia desktop setup, backed up so I can restore it on a new mac
 ## Restore on a new device
 
 ```bash
-git clone https://github.com/ukesh-dhakal/Hyprland-Config
+git clone https://github.com/ukesh-dhakal/Hyprland-Config ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```
