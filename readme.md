@@ -8,23 +8,10 @@ My Hyprland + Noctalia desktop setup, backed up so I can restore it on a new mac
 
 | Launcher | Noctalia bar |
 |---|---|
-| ![Launcher](Images/Launcher.png) | ![Bar](Images/Fastfetch.png) |
+| ![Launcher](images/Launcher.png) | ![Bar](images/Fastfetch.png) |
 
 
 
-## What's inside
-
-| Path in repo | Restored to |
-|---|---|
-| `config/hypr` | `~/.config/hypr` (Hyprland, Lua configs) |
-| `config/noctalia`, `config/quickshell` | `~/.config/...` (bar and shell) |
-| `config/fastfetch`, `config/neofetch` | `~/.config/...` |
-| `config/spicetify`, `config/wireplumber`, `config/pipewire` | `~/.config/...` |
-| `config/<terminal, gtk, qt, shell...>` | `~/.config/...` |
-| `home/` | shell rc files in `~` |
-| `local-share/applications` | `~/.local/share/applications` (custom launchers) |
-| `Wallpapers/` | `~/Pictures/Wallpapers` |
-| `system-info.txt` | fastfetch snapshot of the old machine (reference only) |
 
 ## Requirements
 
@@ -39,23 +26,12 @@ My Hyprland + Noctalia desktop setup, backed up so I can restore it on a new mac
 ## Restore on a new device
 
 ```bash
-git clone <your-repo-url> ~/dotfiles
+git clone https://github.com/ukesh-dhakal/Hyprland-Config
 cd ~/dotfiles
 ./install.sh
 ```
 
-Existing configs are never overwritten. They are renamed to `<name>.bak-<timestamp>` first. Log out and back in (or reboot) afterwards.
 
-## Update the backup
 
-```bash
-bash backup.sh
-cd ~/dotfiles && git push
-```
 
-Edit the `CONFIG_DIRS` list at the top of `backup.sh` to add or remove folders.
 
-## Notes
-
-- Keep this repo private. Check shell rc files and app configs for tokens or credentials before pushing.
-- fastfetch replaces neofetch, which is no longer maintained.
