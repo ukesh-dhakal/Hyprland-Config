@@ -1,0 +1,7 @@
+aws-cli-bin
+codexbar-cli-bin
+proton-authenticator-bin
+spicetify-cli
+spotify
+stremio
+ttf-ms-fonts

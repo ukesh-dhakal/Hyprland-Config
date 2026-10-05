@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=TLauncher
+Comment=Minecraft launcher
+Exec=java -jar /home/ukesh/Applications/TLauncher/TLauncher.jar
+Path=/home/ukesh/Applications/TLauncher
+Type=Application
+Terminal=false
+Categories=Game;

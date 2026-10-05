@@ -1,0 +1,6 @@
+"shell": {
+  "screenshot": {
+    "clipboard_enabled": true,
+    "copy_to_clipboard": true
+  }
+}
