@@ -15,7 +15,6 @@ My Hyprland + Noctalia desktop setup, backed up so I can restore it on a new mac
 
 ## Requirements
 
-`install.sh` only restores configs and does not install any apps. Install these first on the new machine:
 
 - Hyprland
 - Noctalia shell (and Quickshell if it is a separate package)
