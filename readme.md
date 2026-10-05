@@ -8,7 +8,7 @@ My Hyprland + Noctalia desktop setup, backed up so I can restore it on a new mac
 
 | Launcher | Fast Fetch|
 |---|---|
-| ![Launcher](Images/Launcher.png) | ![Bar](Images/Fastfetch.png) |
+| ![Launcher](Images/Launcher.png) | ![Fastfetch](Images/Fastfetch.png) |
 
 
 
