@@ -4,15 +4,13 @@ My Hyprland + Noctalia desktop setup, backed up so I can restore it on a new mac
 
 ## Preview
 
-![Desktop](images/Desktop.png)
+![Desktop](Images/Desktop.png)
 
 | Launcher | Noctalia bar |
 |---|---|
-| ![Launcher](images/Launcher.png) | ![Bar](images/Fastfetch.png) |
+| ![Launcher](Images/Launcher.png) | ![Bar](Images/Fastfetch.png) |
 
 
-
-> Put your screenshots in the `images/` folder and name them `desktop.png`, `launcher.png`, `bar.png` and `fastfetch.png`. Or change the paths above to match your own filenames.
 
 ## What's inside
 
